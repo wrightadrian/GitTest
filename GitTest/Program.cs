@@ -10,8 +10,10 @@ namespace GitTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Git World.");
-            Console.WriteLine("Hello Git World.");
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine("Hello Git World.");
+            }
         }
     }
 }
